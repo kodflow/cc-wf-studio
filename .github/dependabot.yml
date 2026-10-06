@@ -3,8 +3,14 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: weekly
+      day: monday
+      time: "04:00"
+      timezone: Europe/Paris
   - package-ecosystem: "npm"
     directory: "/src/webview"
     schedule:
-      interval: "weekly"
+      interval: weekly
+      day: monday
+      time: "04:00"
+      timezone: Europe/Paris
